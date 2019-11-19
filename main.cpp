@@ -17,7 +17,7 @@ int main() {
 
   cout << "\nMaximum: " << endl;
   cout << "int: " << maximum(4, 5) << endl;//integer
-  cout << "double :" << maximum(100.2, 5.5) << endl;//double 
+  cout << "double: " << maximum(100.2, 5.5) << endl;//double 
   cout << "char: " << maximum('a','z') << endl; // char
   cout << "char: " << maximum(j,k) << endl;//char as variable
   cout <<"bool: " << maximum(true, false) << endl;//bool
@@ -29,7 +29,7 @@ int main() {
 
   cout << "\nAddition: " << endl;
   cout << "int: " << CAddition(4, 5) << endl;//integer
-  cout << "double :" << CAddition(100.2, 5.5) << endl;//double 
+  cout << "double: " << CAddition(100.2, 5.5) << endl;//double 
   cout << "char: cannot be added." << endl; // char
   cout << "char: cannot be added." << endl;//char as variable
   cout << "bool: " << CAddition(true, false) << endl;//bool
@@ -41,7 +41,7 @@ int main() {
   
   cout << "\nMinimum: " << endl;
   cout << "int: " << CMin(4, 5) << endl;//integer
-  cout << "double :" << CMin(100.2, 5.5) << endl;//double 
+  cout << "double: " << CMin(100.2, 5.5) << endl;//double 
   cout << "char: " << CMin('a','z') << endl; // char
   cout << "char: " << CMin(j,k) << endl;//char as variable
   cout << "bool: " << CMin(true, false) << endl;//bool
@@ -52,7 +52,7 @@ int main() {
 
   cout << "\nMultiply: " << endl;
   cout << "int: " << CMultiply(4, 5) << endl;//integer
-  cout << "double :" << CMultiply(100.2, 5.5) << endl;//double 
+  cout << "double: " << CMultiply(100.2, 5.5) << endl;//double 
   cout << "char: cannot be multiplied."<< endl; // char
   cout << "char: cannot be multiplied." << endl;//char as variable
   cout << "bool: " << CMultiply(true, false) << endl;//bool
@@ -60,4 +60,24 @@ int main() {
   cout << "unsigned int: " << CMultiply(a,b) << endl;//unsigned in passvariables as parameters
   cout << "string: cannot be multiplied." << endl; //string literal
   cout << "string: cannot be multiplied." << endl; // string by variable
+
+  cout << "\nSwap: " << endl;
+  cout << "int: "; 
+  CSwap(4, 5);
+  cout << "double: ";
+  CSwap(100.2, 5.5);//double 
+  cout << "char: ";
+  CSwap('a','z'); // char
+  cout << "char: ";
+  CSwap(j,k);//char as variable
+  cout << "bool: ";
+  CSwap(true, false);//bool
+  cout << "float:";
+  CSwap(2.5,4.555);//float
+  cout << "unsigned int: ";
+  CSwap(a,b);//unsigned in passvariables as parameters
+  cout << "string: ";
+  CSwap("tyson", "mcmillan"); //string literal
+  cout << "string: ";
+  CSwap(t,m); // string by variable
 }

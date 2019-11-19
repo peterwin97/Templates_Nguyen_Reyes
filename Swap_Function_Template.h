@@ -1,5 +1,13 @@
+
 template<class ANY_TYPE>
-ANY_TYPE CSwap(ANY_TYPE a, ANY_TYPE b)
+void CSwap(ANY_TYPE a, ANY_TYPE b)
 {
+  ANY_TYPE c;
+  c = a;
+  a = b;
+  b = c;
+
+ std::cout << "Swapped: " << a << " " << b<<
+ std::endl;
   
 }
